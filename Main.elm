@@ -1,7 +1,6 @@
-module Main exposing (Model, Msg(..), init, main, subscriptions, update, view)
+module Main exposing (..)
 
 import Browser
-import Browser.Events exposing (Visibility)
 import Html exposing (Html, button, div, h1, img, text)
 import Html.Attributes exposing (hidden, style, src)
 import Html.Events exposing (onClick)
